@@ -16,4 +16,16 @@ fun main() {
     println("---------------------------")
 
     salarysBig1500.forEach { println(it) }
+
+    println("---------------------------")
+
+    println(salarys.count { it in 2000.0..5000.0  })
+
+    println("---------------------------")
+
+    println(salarys.find { it == 2000.0 })
+
+    println("---------------------------")
+
+    println(salarys.any { it == 100.0 })
 }
