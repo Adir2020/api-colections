@@ -8,8 +8,8 @@ fun main() {
     }
     println("---------------------------")
 
-    println("big salary: ${salarys.max()}")
-    println("small salary: ${salarys.min()}")
+    println("big salary: ${salarys.maxOrNull()}")
+    println("small salary: ${salarys.minOrNull()}")
     println("big salary: ${salarys.average()}")
 
     val salarysBig1500 = salarys.filter { it > 1500.0 }
